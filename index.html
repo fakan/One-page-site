@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Natural Environmental Care.</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,300italic,500,700' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="css/lightbox.css" rel="stylesheet" />
+
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			  anchors: ['welcome', 'about', 'gallery-holder', 'gallery', 'contact-holder', 'contact','donate'],
+			  menu: false,
+			  navigation: true,
+			  slidesNavigation: true,
+			  loopTop: true,
+			  loopBottom: true,
+			  controlArrows: false,
+			  paddingTop: '50px',
+			  paddingBottom: '50px',
+			  afterRender: function () {
+            setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 4000);
+        }
+
+			});
+		});
+	</script>
+
+
+
+</head>
+<body>
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<h1>Natural Enviromental Care.</h1>
+
+		<div class="slide" data-anchor="slide1"> We aim to protect what matters. </div>
+    	<div class="slide" data-anchor="slide2"> We try to help the unseen. </div>
+    	<div class="slide" data-anchor="slide3"> We help to clean the touched. </div>
+    	<div class="slide" data-anchor="slide4"> We love our nature. </div>
+
+	</div>
+
+	<div class="section" id="section1">
+		<div class="text-container">
+		<h2>What is our project about?</h2>
+		<p>Our company aims at helping the nature and species in danger , as well as cleaning and money supporting areas in need.Morbi facilisis viverra pretium. Etiam rutrum aliquet augue ut condimentum. Maecenas libero nibh, suscipit at velit vel, bibendum congue nisi. Vivamus aliquam dolor non sagittis imperdiet. Quisque a commodo nunc. Aliquam at lectus turpis. Phasellus ut euismod sem, et pellentesque massa. Mauris sagittis nisl erat, dapibus varius diam laoreet eget. In accumsan, est eu porta volutpat, lectus eros facilisis velit, sed fermentum mi nisi quis lectus.</p>
+		<p>Quisque vel mi id lectus aliquet euismod id nec magna. Pellentesque commodo suscipit justo nec fermentum. Cras purus magna, lobortis et lacus a, condimentum dapibus dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum laoreet ex sed dolor molestie, ac finibus risus ultrices. Nulla a ultricies est. Proin tempor nunc a augue rutrum laoreet. Sed ornare turpis ut sollicitudin mattis.</p>
+		<p>Morbi facilisis viverra pretium. Etiam rutrum aliquet augue ut condimentum. Maecenas libero nibh, suscipit at velit vel, bibendum congue nisi. Vivamus aliquam dolor non sagittis imperdiet. Quisque a commodo nunc. Aliquam at lectus turpis. Phasellus ut euismod sem, et pellentesque massa. Mauris sagittis nisl erat, dapibus varius diam laoreet eget. In accumsan, est eu porta volutpat, lectus eros facilisis velit, sed fermentum mi nisi quis lectus.</p>
+ 	</div>
+	</div>
+
+	<div class="section" id="section2">
+		<h1>Gallery.</h1>
+	</div>
+
+	<div class="section" id="section3">
+
+		<div class="image-container">
+
+	<div class="image"><a href="img/ff.jpg" data-lightbox="image-1" ><img src="img/ff.jpg" /></a></div>
+
+	<div class="image"><a href="img/faded.jpg" data-lightbox="image-2" ><img src="img/faded.jpg" /></a></div>
+
+	<div class="image"><a href="img/header-background.jpg" data-lightbox="image-2" ><img src="img/header-background.jpg" /></a></div>
+
+	<div class="image"><a href="img/dark.jpg" data-lightbox="image-2" ><img src="img/dark.jpg" /></a></div>
+
+	<div class="image"><a href="img/gallery-background.jpg" data-lightbox="image-2" ><img src="img/gallery-background.jpg" /></a></div>
+
+	<div class="image"><a href="img/faw.jpg" data-lightbox="image-2" ><img src="img/faw.jpg" /></a></div>
+
+		</div>
+
+	 </div>
+
+	<div class="section" id="section4">
+		<h1>Get in touch with us.</h1>
+	</div>
+
+	<div class="section" id="section5">
+		<h2>Contact us.</h2>
+		<div class="center-form">
+		<div class="form-container">
+
+		<form method="POST">
+        <span>E-mail:</span><br>
+        <input type="text" name="meno"><br>
+        <span>Message text:</span><br><br>
+
+		<textarea name="text" rows="10" cols="50">Write your message here</textarea><br><br>
+
+        <input type="submit" class="submit_button" value="odoslať">
+        </form>
+    	</div>
+    	<p>Natural Enviromental Care<br/>
+    		+427 933 247 212<br/>
+    		natenviro@gmail.com<br/>
+    		Poland Warsaw Mokotów 0 81
+    	</p>
+
+
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156388.80311681805!2d21.06119405!3d52.23293794999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarsaw%2C+Poland!5e0!3m2!1sen!2ssk!4v1434004213265" width="300" height="300" frameborder="0" style="border:0"></iframe>
+
+    </div>
+	</div>
+
+	<div class="section" id="section6">
+
+		<h1>And help us with the project.</h1>
+		<p>You will help us clean & protect our nature , and receive cool T-shirt & sticker.</p>
+		<button>DONATE</button><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<span>Design and code by <a href="http://facebook.com/fakanflow">fakan</a> , using <a href="http://alvarotrigo.com/fullPage/">FullPage</a> plugin &copy 2015.</span>
+
+	</div>
+
+</div>
+
+</body>
+</html>
